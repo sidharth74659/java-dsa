@@ -15,6 +15,9 @@ bin-release/
 *.air
 *.ipa
 *.apk
+tempCodeRunnerFile.java
+./searching/tempCodeRunnerFile.java
+./arrays/tempCodeRunnerFile.java
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
