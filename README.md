@@ -8,5 +8,5 @@ Leet code solutions
 
 |Index| Topic| Solutions|
 |---|---|---|
-|1|[arrays](./arrays/README.md)|[Solutions](./arrays/)|
-|2|[seaching](./searching/README.md)|[Solutions](./searching/)|
+|1|[arrays](./arrays/README.md)|[Solutions](./arrays/README.md)|
+|2|[seaching](./searching/README.md)|[Solutions](./searching/README.md)|
