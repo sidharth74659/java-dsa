@@ -1,6 +1,6 @@
 assets/
-new/Algorithms\ Part1/*
-new/Algorithms\ Part2/*
+new/Algorithms*Part*I/
+new/Algorithms*Part*II/
 
 # compiled files
 bin/
