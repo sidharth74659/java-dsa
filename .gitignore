@@ -1,4 +1,5 @@
 assets/
+*.class
 new/Algorithms*Part*I/
 new/Algorithms*Part*II/
 
