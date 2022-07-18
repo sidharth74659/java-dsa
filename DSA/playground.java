@@ -24,46 +24,30 @@ class Playground {
 
   private static boolean isPrime(int givenNumber) {
 
-    int steps = 0;
     // Corner cases
     if (givenNumber <= 1) {
-      steps++;
-
-      // System.out.println("number : " + givenNumber + ",steps : " + steps);
+      
       return false;
     }
     if (givenNumber <= 3) {
-      steps++;
-
-      // System.out.println("number : " + givenNumber + ",steps : " + steps);
+      
       return true;
     }
 
     // This is checked so that we can skip
     // middle five numbers in below loop
     if (givenNumber % 2 == 0 || givenNumber % 3 == 0) {
-      steps++;
-
-      // System.out.println("number : " + givenNumber + ",steps : " + steps);
+      
       return false;
     }
     
     // for (int i = 5; i * i <= givenNumber; i = i + 6) {
-    //   // steps++;
-
-    //   // System.out.println("inside for : ");
-    //   // System.out.println("number : " + givenNumber + ",i  : " + i + ",steps : " + steps);
+    //   // 
 
     //   if (givenNumber % i == 0 || givenNumber % (i + 2) == 0) {
-    //     steps++;
-    //     // System.out.println("inside for if : ");
-
-    //     System.out.println("number : " + givenNumber + ",i  : " + i + ",steps : " + steps);
-    //     return false;
+    //         //     return false;
     //   }
     // }
-
-    // System.out.println("number : " + givenNumber + ",steps : " + steps);
     return true;
 
   }

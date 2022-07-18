@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class prime {
   // ? Problem statement :
@@ -7,19 +6,12 @@ public class prime {
   public static void main(String[] args) {
     int givenNumber = 1;
 
-    // for (int i = 0; i <= 50; i++) {
-    // givenNumber = i;
+    if (isPrime(givenNumber)) {
+      System.out.println(givenNumber + " is : " + "Prime");
+    }
 
-    // if (isPrime(givenNumber)) {
-    // System.out.println(givenNumber + " is : " + "Prime");
-    // }
-
-    // }
-
+    // @Range
     primeNumbers(0, 100);
-
-    // int[] numbers = primeNumbers(1, 10);
-    // System.out.println("result : " + Arrays.toString(numbers));
   }
 
   private static void primeNumbers(int startNumber, int endNumber) {
